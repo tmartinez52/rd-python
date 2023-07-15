@@ -1,4 +1,5 @@
 import argparse
+import time 
 
 def main():
     parser = argparse.ArgumentParser(description='Command-line utility example')
@@ -14,9 +15,9 @@ def main():
 
     # Do something with the parameters
     print(f"Username: {username}")
-    sleep(5)
+    time.sleep(5)
     print(f"Password: {password}")
-    sleep(5)
+    time.sleep(5)
     print(f"IP Address: {ip_address}")
 
 if __name__ == '__main__':
